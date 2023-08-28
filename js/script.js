@@ -278,8 +278,8 @@ class Slidercomp {
 }
 
 const slidercomp = new Slidercomp('slidercomp', {
-	before: "../img/image/picture-explore/before.jpg",
-	after: "../img/image/picture-explore/after.jpg",
+	before: "img/image/picture-explore/before.jpg",
+	after: "img/image/picture-explore/after.jpg",
 });
 // const { exit } = require("browser-sync");
 
