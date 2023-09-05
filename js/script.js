@@ -224,17 +224,14 @@ function getTemplate(state) {
 	}
 	return `<div class="slidercomp__before" style="width: ${state.width}px; background-image: url(${state.before})"><div class="slidercomp__resize" data-type="resize"></div></div><div class="slidercomp__after" style="background-image: url(${state.after})"></div> `
 }
-// function checkBorderSlidercomp(){
 
-// }
 class Slidercomp {
 	constructor(selector, state) {
 		this.$slidercomp = document.getElementById(selector)
 		this.state = {
 			...state,
-			width: state.width || 420
+			width: state.width || 240,
 		}
-
 		this.Rrender(this.state)
 		this.Llisten()
 	}

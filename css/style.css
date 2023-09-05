@@ -100,7 +100,7 @@ h6 {
 
 .container {
   max-width: 1480px;
-  padding: 0px 20px;
+  padding: 0px 20px 0px 20px;
   margin: 0px auto;
   height: 100%;
 }
@@ -1428,6 +1428,10 @@ input[type=radio] {
     width: 150px;
   }
 
+  .menu__list li a {
+    pointer-events: none;
+  }
+
   .menu__list li:last-child {
     margin: 0px;
   }
@@ -1557,7 +1561,7 @@ input[type=radio] {
   }
 
   .visiting__row {
-    margin: 0px -30px 60px -30px;
+    margin: 0px 0px 60px 0px;
   }
 
   .visiting-item {
@@ -1786,7 +1790,7 @@ input[type=radio] {
 
   .visiting__row {
     margin: 0;
-    margin: 0px -30px 80px -30px;
+    margin: 0px 0px 80px 0px;
   }
 
   .visiting-item {
@@ -2091,7 +2095,7 @@ input[type=radio] {
   }
 
   .visiting__row {
-    margin: 0px -30px 40px -30px;
+    margin: 0px 0px 40px 0px;
   }
 
   .visiting-item__title {
@@ -2106,6 +2110,14 @@ input[type=radio] {
   .explore__title {
     font-size: 20px;
     line-height: 129%;
+  }
+
+  .explore__row {
+    margin: 35px 0px;
+  }
+
+  .explore__about-picture {
+    margin: 0px 0px 35px 0px;
   }
 
   .slidercomp {
@@ -2203,6 +2215,26 @@ input[type=radio] {
 
   .footer__name {
     display: none;
+  }
+
+  .footer__bottom {
+    padding: 25px 0px;
+  }
+
+  .video__title {
+    font-size: 25px;
+  }
+
+  .video__slider {
+    margin: 40px 0px;
+  }
+
+  .video__slider-controls {
+    margin-bottom: 40px;
+  }
+
+  .video .video-single {
+    height: 180px;
   }
 }
 @supports (-webkit-appearance:none){
